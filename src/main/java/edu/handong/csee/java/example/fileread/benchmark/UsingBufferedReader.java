@@ -21,9 +21,9 @@ public class UsingBufferedReader {
         
         inputStream.close();
 
-/*
-        //-------------- Test reading 10 MB file. --------------------
 
+        //-------------- Test reading 10 MB file. --------------------
+        fileName=args[1];
         StopWatch.start();
 
         BufferedReader inputStream2= new BufferedReader(new FileReader(fileName));
@@ -34,7 +34,7 @@ public class UsingBufferedReader {
 
         inputStream2.close();
 
-        
+        /*      
         //-------------- Test reading 100 MB file. --------------------
 
         StopWatch.start();
